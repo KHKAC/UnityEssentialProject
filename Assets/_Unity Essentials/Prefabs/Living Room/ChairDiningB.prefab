@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3413399520219269662}
   m_Layer: 0
   m_Name: Leg_BackRight
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65,7 +65,7 @@ GameObject:
   - component: {fileID: 365888278653886938}
   m_Layer: 0
   m_Name: Leg_FrontRight
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -155,7 +155,7 @@ GameObject:
   - component: {fileID: 5722429133844820957}
   m_Layer: 0
   m_Name: Leg_FrontLeft
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -208,7 +208,7 @@ GameObject:
   - component: {fileID: 9168414642450802809}
   m_Layer: 0
   m_Name: Leg_BackLeft
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -261,7 +261,7 @@ GameObject:
   - component: {fileID: 2051753184824370323}
   m_Layer: 0
   m_Name: Collider_Back
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -313,6 +313,7 @@ GameObject:
   - component: {fileID: 8897361454555195408}
   - component: {fileID: 5536644192657008565}
   - component: {fileID: 7724495550373696383}
+  - component: {fileID: 5278592801886705154}
   m_Layer: 0
   m_Name: ChairDiningB
   m_TagString: Untagged
@@ -386,6 +387,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5278592801886705154
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8084550355086717610}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.5002683, y: 3.0640717, z: 1.3478607}
+  m_Center: {x: 0.02979017, y: 1.5041823, z: -0.011828545}
 --- !u!1 &8175986083395142812
 GameObject:
   m_ObjectHideFlags: 0
@@ -398,7 +420,7 @@ GameObject:
   - component: {fileID: 4918344069362425638}
   m_Layer: 0
   m_Name: Collider_Seat
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
