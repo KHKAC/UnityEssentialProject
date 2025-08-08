@@ -4691,7 +4691,7 @@ GameObject:
   - component: {fileID: 1285023769}
   - component: {fileID: 1285023770}
   m_Layer: 0
-  m_Name: Sprite Sheet_Cat_0
+  m_Name: Cat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5905,7 +5905,7 @@ GameObject:
   - component: {fileID: 1779113336}
   - component: {fileID: 1779113337}
   m_Layer: 0
-  m_Name: Sprite Sheet_Dog_0
+  m_Name: Dog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
